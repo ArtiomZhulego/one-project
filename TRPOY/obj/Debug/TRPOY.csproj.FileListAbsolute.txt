@@ -1,0 +1,81 @@
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\bin\Debug\TRPOY.exe.config
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\bin\Debug\TRPOY.exe
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\bin\Debug\TRPOY.pdb
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.SuggestedBindingRedirects.cache
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\MainWindow.g.cs
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\App.g.cs
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.cache
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.lref
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\MainWindow.baml
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.g.resources
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.Properties.Resources.resources
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.GenerateResource.cache
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.exe
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\TRPOY.pdb
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\LastList.g.cs
+C:\Users\Artem\Desktop\Лабы С#\TRPOY\TRPOY\obj\Debug\LastList.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\TRPOY.exe.config
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\TRPOY.exe
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\TRPOY.pdb
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.SuggestedBindingRedirects.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\LastList.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\MainWindow.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\App.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.lref
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\LastList.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\MainWindow.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.g.resources
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.Properties.Resources.resources
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.GenerateResource.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.exe
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.pdb
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\clients.mdf
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY_Content.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\clients_log.ldf
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Start.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Start.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Add.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Add.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\add1.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\add1.baml
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.ResolveComReference.cache
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Change.g.cs
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\Change.baml
+D:\TRPOY\TRPOY\bin\Debug\clients.mdf
+D:\TRPOY\TRPOY\bin\Debug\clients_log.ldf
+D:\TRPOY\TRPOY\bin\Debug\TRPOY.exe.config
+D:\TRPOY\TRPOY\bin\Debug\TRPOY.exe
+D:\TRPOY\TRPOY\bin\Debug\TRPOY.pdb
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.AssemblyReference.cache
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.SuggestedBindingRedirects.cache
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.ResolveComReference.cache
+D:\TRPOY\TRPOY\obj\Debug\Add.g.cs
+D:\TRPOY\TRPOY\obj\Debug\add1.g.cs
+D:\TRPOY\TRPOY\obj\Debug\Change.g.cs
+D:\TRPOY\TRPOY\obj\Debug\LastList.g.cs
+D:\TRPOY\TRPOY\obj\Debug\MainWindow.g.cs
+D:\TRPOY\TRPOY\obj\Debug\Start.g.cs
+D:\TRPOY\TRPOY\obj\Debug\App.g.cs
+D:\TRPOY\TRPOY\obj\Debug\TRPOY_Content.g.cs
+D:\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.cache
+D:\TRPOY\TRPOY\obj\Debug\TRPOY_MarkupCompile.lref
+D:\TRPOY\TRPOY\obj\Debug\Add.baml
+D:\TRPOY\TRPOY\obj\Debug\add1.baml
+D:\TRPOY\TRPOY\obj\Debug\Change.baml
+D:\TRPOY\TRPOY\obj\Debug\LastList.baml
+D:\TRPOY\TRPOY\obj\Debug\MainWindow.baml
+D:\TRPOY\TRPOY\obj\Debug\Start.baml
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.g.resources
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.Properties.Resources.resources
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.GenerateResource.cache
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.CoreCompileInputs.cache
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.exe
+D:\TRPOY\TRPOY\obj\Debug\TRPOY.pdb
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\Xceed.Document.NET.dll
+C:\Users\Artem\Desktop\TRPOY\TRPOY\bin\Debug\Xceed.Words.NET.dll
+C:\Users\Artem\Desktop\TRPOY\TRPOY\obj\Debug\TRPOY.csproj.CopyComplete

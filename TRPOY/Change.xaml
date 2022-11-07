@@ -1,0 +1,216 @@
+﻿<Window x:Class="TRPOY.Change" Icon="bed.png"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TRPOY"
+         mc:Ignorable="d"
+        Title="Редактирование" Height="600" Width="400" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="TBl" TargetType="TextBlock">
+            <Setter Property="MinHeight" Value="40"></Setter>
+            <Setter Property="MinWidth" Value="150"></Setter>
+            <Setter Property="Foreground" Value="BurlyWood"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="15"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        </Style>
+        <Style x:Key="TB" TargetType="TextBox">
+            <Setter Property="Background" Value="Beige"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Width" Value="400"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid x:Name="root" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" SnapsToDevicePixels="True">
+                            <Border x:Name="Background" BorderThickness="1" CornerRadius="2" 
+                                    Background="{TemplateBinding Background}" 
+                                    BorderBrush="{TemplateBinding BorderBrush}"/>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                          BorderThickness="0" 
+                                          Padding="{TemplateBinding Padding}" 
+                                          IsTabStop="False" Background="{x:Null}" 
+                                          TextElement.Foreground="{TemplateBinding Foreground}">
+                            </ScrollViewer>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="Aqua"></Setter>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="Blue"></Setter>
+                                <Setter Property="Background" Value="Bisque"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="PhoneTB" TargetType="TextBox">
+            <Setter Property="Background" Value="Beige"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid x:Name="root" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" SnapsToDevicePixels="True">
+                            <Border x:Name="Background" BorderThickness="1" CornerRadius="2" 
+                                    Background="{TemplateBinding Background}" 
+                                    BorderBrush="{TemplateBinding BorderBrush}"/>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                          BorderThickness="0" 
+                                          Padding="{TemplateBinding Padding}" 
+                                          IsTabStop="False" Background="{x:Null}" 
+                                          TextElement.Foreground="{TemplateBinding Foreground}">
+                            </ScrollViewer>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="Aqua"></Setter>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="Blue"></Setter>
+                                <Setter Property="Text" Value="+375"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CB" TargetType="ComboBox">
+            <Setter Property="MinWidth" Value="200"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="50"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Background" Value="BurlyWood"></Setter>
+            <Setter Property="Foreground" Value="BurlyWood"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="CadetBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="90*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Style="{StaticResource TBl}">Введите необходимые данные</TextBlock>
+
+
+        <Grid x:Name="Client" Grid.Row="1">
+            <StackPanel Orientation="Vertical" Grid.Row="1">
+                <TextBox MaxLength="15"  x:Name="FirstName" Style="{StaticResource TB}"></TextBox>
+                <TextBox MaxLength="15" x:Name="LastName" Style="{StaticResource TB}"></TextBox>
+                <TextBox MaxLength="15" x:Name="SecondName" Style="{StaticResource TB}"></TextBox>
+                <TextBox MaxLength="3"  x:Name="Age" Style="{StaticResource TB}"></TextBox>
+                <TextBox MaxLength="8"  x:Name="PassportNum" Style="{StaticResource TB}"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Vertical">
+                <TextBlock  VerticalAlignment="Top" IsHitTestVisible="False" Text="FirstName">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Margin" Value="20"></Setter>
+                            <Setter Property="Height" Value="40"></Setter>
+                            <Setter Property="Width" Value="350"></Setter>
+                            <Setter Property="Foreground" Value="LightGray"></Setter>
+                            <Setter Property="FontSize" Value="16"></Setter>
+                            <Setter Property="Visibility" Value="Hidden"></Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=FirstName}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <TextBlock IsHitTestVisible="False" Text="LastName">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Height" Value="40"></Setter>
+                            <Setter Property="Width" Value="350"></Setter>
+                            <Setter Property="Foreground" Value="LightGray"></Setter>
+                            <Setter Property="FontSize" Value="16"></Setter>
+                            <Setter Property="Visibility" Value="Hidden"></Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=LastName}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" Text="SecondName">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Margin" Value="20"></Setter>
+                            <Setter Property="Height" Value="40"></Setter>
+                            <Setter Property="Width" Value="350"></Setter>
+                            <Setter Property="Foreground" Value="LightGray"></Setter>
+                            <Setter Property="FontSize" Value="16"></Setter>
+                            <Setter Property="Visibility" Value="Hidden"></Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=SecondName}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" Text="Age">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Height" Value="60"></Setter>
+                            <Setter Property="Width" Value="350"></Setter>
+                            <Setter Property="Foreground" Value="LightGray"></Setter>
+                            <Setter Property="FontSize" Value="16"></Setter>
+                            <Setter Property="Visibility" Value="Hidden"></Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=Age}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" Text="PassportNum">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Height" Value="40"></Setter>
+                            <Setter Property="Width" Value="350"></Setter>
+                            <Setter Property="Foreground" Value="LightGray"></Setter>
+                            <Setter Property="FontSize" Value="16"></Setter>
+                            <Setter Property="Visibility" Value="Hidden"></Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=PassportNum}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+            </StackPanel>
+        </Grid>
+
+        <Grid Visibility="Collapsed" x:Name="list" Grid.Row="1">
+            
+        </Grid>
+        <Grid Visibility="Collapsed" x:Name="Room" Grid.Row="1">
+            
+        </Grid>
+        
+      
+        
+        <Button Grid.Row="2" MinWidth="200" MinHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center">Изменить</Button>
+    </Grid>
+</Window>
